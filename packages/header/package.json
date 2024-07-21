@@ -1,6 +1,6 @@
 {
   "name": "@gilecampos/header",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc"
