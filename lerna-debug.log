@@ -1,5 +1,9 @@
-46 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
-46 error remote: No anonymous write access.
-46 error fatal: Authentication failed for 'https://github.com/gilecampos/echoUI.git/'
-46 error     at makeError (/home/campos/projects/echoUI/node_modules/execa/lib/error.js:59:11)
-46 error     at handlePromise (/home/campos/projects/echoUI/node_modules/execa/index.js:114:26)
+40 error Error: Command failed with exit code 128: git tag @gilecampos/button@0.0.1 -m @gilecampos/button@0.0.1
+40 error fatal: tag '@gilecampos/button@0.0.1' already exists
+40 error     at makeError (/home/campos/projects/echoUI/node_modules/execa/lib/error.js:59:11)
+40 error     at handlePromise (/home/campos/projects/echoUI/node_modules/execa/index.js:114:26)
+40 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+40 error     at async Promise.all (index 0)
+40 error     at async VersionCommand.gitCommitAndTagVersionForUpdates (/home/campos/projects/echoUI/node_modules/lerna/dist/index.js:9927:11)
+40 error     at async VersionCommand.commitAndTagUpdates (/home/campos/projects/echoUI/node_modules/lerna/dist/index.js:9903:18)
+40 error     at async Promise.all (index 0)
