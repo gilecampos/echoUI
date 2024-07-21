@@ -2,9 +2,7 @@
   "name": "gilecampos",
   "private": false,
   "workspaces": [
-    "packages/button",
-    "packages/header",
-    "packages/footer"
+    "packages/*"
   ],
   "dependencies": {},
   "devDependencies": {

@@ -1,6 +1,7 @@
 {
+  "private": false,
   "name": "@gilecampos/button",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc"

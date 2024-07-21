@@ -1,7 +1,6 @@
 {
   "packages": [
-    "packages/button",
-    "packages/header"
+    "packages/button"
   ],
   "version": "independent",
   "npmClient": "yarn",
