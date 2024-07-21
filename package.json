@@ -1,8 +1,10 @@
 {
   "name": "gilecampos",
-  "private": true,
+  "private": false,
   "workspaces": [
-    "packages/button"
+    "packages/button",
+    "packages/header",
+    "packages/footer"
   ],
   "dependencies": {},
   "devDependencies": {
