@@ -1,0 +1,5 @@
+46 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
+46 error remote: No anonymous write access.
+46 error fatal: Authentication failed for 'https://github.com/gilecampos/echoUI.git/'
+46 error     at makeError (/home/campos/projects/echoUI/node_modules/execa/lib/error.js:59:11)
+46 error     at handlePromise (/home/campos/projects/echoUI/node_modules/execa/index.js:114:26)
